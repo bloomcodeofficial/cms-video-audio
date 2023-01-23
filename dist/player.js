@@ -1,0 +1,1 @@
+"use strict";(()=>{document.addEventListener("DOMContentLoaded",()=>{let t=Plyr.setup("#player",{controls:[],clickToPlay:!1});window.player=player,document.querySelectorAll(".plyr").forEach((e,o)=>{e.addEventListener("mouseover",()=>{t[o].play()}),e.addEventListener("mouseleave",()=>{t[o].stop()})});function r(e,o,n){document.querySelector(e).addEventListener(o,n,!1)}});})();
